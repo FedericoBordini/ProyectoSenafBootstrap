@@ -1,0 +1,40 @@
+
+
+.tengo-ideas {
+  max-width: 100%;
+  background: #b1d035;
+  margin: 1em 2em 3em;
+  border-radius: 5px;
+  font-size: 20px;
+  
+}
+
+.preocupa-alguien{
+  max-width: 100%;
+  background: #b1d035;
+  border-radius: 5px;
+}
+
+.profecional-familia-interesado{
+  max-width: 100%;
+  background: #b1d035;
+  margin: 1em;
+  border-radius: 5px;
+}
+
+.informacion {
+  max-width: 100%;
+  background: #b1d035;
+  margin: 1em 2em;
+  border-radius: 5px;
+}
+
+.ideas{
+  width: 45px;
+  height: 45px;
+  margin-bottom: 1em;
+  margin-right: -3.0em;
+  margin-left: 1em;
+  margin-top: -.1em;
+
+}
