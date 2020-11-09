@@ -1,18 +1,29 @@
-
+/* .tengo-ideas{
+background: #546a8f; azul 
+background: #b1d035;  amarillo 
+}
+ */
 
 .tengo-ideas {
   max-width: 100%;
   background: #b1d035;
-  margin: 1em 2em 3em;
-  border-radius: 5px;
-  font-size: 20px;
-  
+  margin-top: 1em;
+  margin-bottom: 1em;
+  margin-left: 1em;
+  margin-right: 1em;
+  border-radius: 10px;
+  font-size: 20px;  
+  font-weight: bold;
+  padding-bottom: -2em;
+  padding-top: -.5em;
+  padding-left: .5em;
+  padding-right: -2em;
 }
 
 .preocupa-alguien{
   max-width: 100%;
   background: #b1d035;
-  border-radius: 5px;
+  border-radius: 10px;
 }
 
 .profecional-familia-interesado{
@@ -30,11 +41,13 @@
 }
 
 .ideas{
-  width: 45px;
-  height: 45px;
-  margin-bottom: 1em;
-  margin-right: -3.0em;
-  margin-left: 1em;
-  margin-top: -.1em;
+  width: 50px;
+  height: 50px;
+  margin-top: -.01em;
+  margin-bottom: 4em;
+  margin-right: 1em;
+  margin-left: -3.5em;
+
 
 }
+
