@@ -7,12 +7,12 @@ background: #b1d035;  amarillo
 .tengo-ideas {
   max-width: 100%;
   background: #b1d035;
+  border-radius: 10px;
+  font-size: 20px;  
   margin-top: 1em;
   margin-bottom: 1em;
   margin-left: 1em;
   margin-right: 1em;
-  border-radius: 10px;
-  font-size: 20px;  
   font-weight: bold;
   padding-bottom: -2em;
   padding-top: -.5em;
@@ -24,6 +24,16 @@ background: #b1d035;  amarillo
   max-width: 100%;
   background: #b1d035;
   border-radius: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: .5em;
+  margin-bottom: -3em;
+  margin-left: 1em; 
+  margin-right: 1em;
+  padding-top: 3em;
+  padding-bottom: 1em;
+  padding-left: -1em;
+  padding-right: -.5em;
 }
 
 .profecional-familia-interesado{
@@ -47,7 +57,17 @@ background: #b1d035;  amarillo
   margin-bottom: 4em;
   margin-right: 1em;
   margin-left: -3.5em;
-
-
 }
 
+.preocupa{
+  width: 55px;
+  height: 55px;
+  font-weight: bold;
+  margin-top: -8em;
+  margin-bottom: -2em;
+  margin-right: -3.5em;
+  margin-left: -.1em;
+  padding-top: -2em;
+  padding-bottom: -2em;
+  padding-right: -1em;
+}
