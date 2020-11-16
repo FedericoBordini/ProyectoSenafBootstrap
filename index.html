@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
   <meta charset="UTF-8">
@@ -11,12 +11,14 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-light bg-inverse navbar-toggleable-md" style="background-color: #b1d035;">
+  <!-- barra de navegación -->
+  <nav class="navbar navbar-light bg-inverse navbar-toggleable-lg" style="background-color: #b1d035;">
+    <!-- icono de hamburguesa -->
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
       aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <!-- Ocultar menu dentro de icono de hamburguesa -->
     <a class="navbar-brand" href="index.html"></a>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
       <div class="navbar-nav">
@@ -26,6 +28,7 @@
             aria-haspopup="true" aria-expanded="false" style="background-color: #546a8f;">
             Tengo ideas
           </button>
+          <!-- Submenu 1 -->
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2" style="background-color: #546a8f;">
             <button class="dropdown-item" type="button">Consejos Importantes</button>
             <button class="dropdown-item" type="button">Mis señales de Alarma</button>
@@ -40,6 +43,7 @@
             aria-haspopup="true" aria-expanded="false" style="background-color: #546a8f;">
             Me preocupa alguien
           </button>
+          <!-- Submenu 2 -->
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2" style="background-color: #546a8f;">
             <button class="dropdown-item" type="button">Que hacer</button>
             <button class="dropdown-item" type="button">Que no hacer</button>
@@ -52,7 +56,7 @@
           <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown"
             aria-haspopup="true" aria-expanded="false" style="background-color: #546a8f;">
             Profecional/Familiar/Persona interesada
-            <!-- se tuvo que recortar por temas de estética -->
+            <!-- Submenu 3 (se tuvo que recortar por temas de estética) -->
           </button>
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2" style="background-color: #546a8f;">
             <button class="dropdown-item" type="button">Mitos sobre el Suicidio</button>
@@ -66,6 +70,7 @@
             aria-haspopup="true" aria-expanded="false" style="background-color: #546a8f;">
             Informacion
           </button>
+          <!-- Submenu 4 -->
           <div class="dropdown-menu" aria-labelledby="dropdownMenu2" style="background-color: #546a8f;">
             <button class="dropdown-item" type="button">Adolescencia</button>
             <button class="dropdown-item" type="button">Biolencia</button>
@@ -76,12 +81,26 @@
     </div>
   </nav>
 
-  <button class="tengo-ideas">Tengo Ideas<img src="assets/tengo_ideas.svg" class="ideas" alt=""></button>
-  <button class="preocupa-alguien">Me preocupa</br> <img src="assets/smiley.svg" class="preocupa" alt="">alguien
-  </button>
-  <button class="profecional-familia-interesado"><img src="assets/hospital.svg" class="hospital"
-      alt=""><br>Profecional/<br>Familiar </button>
-  <button class="informacion"><img src="assets/informacion.svg" class="info" alt=""><br>Informacion</button>
+
+  <!-- Comienzo de iconos unicamente para celulares -->
+  <nav>
+    <button class="tengo-ideas" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">Tengo Ideas<img src="assets/tengo_ideas.svg" class="ideas" alt=""></button>
+
+    <button class="preocupa-alguien" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false">Me preocupa</br><img src="assets/smiley.svg" class="preocupa" alt="">alguien
+    </button>
+
+    <button class="profecional-familia-interesado" type="button" id="dropdownMenu2" data-toggle="dropdown"
+      aria-haspopup="true" aria-expanded="false"><img src="assets/hospital.svg" class="hospital"
+        alt=""><br>Profecional/<br>Familiar </button>
+    <button class="informacion" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true"
+      aria-expanded="false"><img src="assets/informacion.svg" class="info" alt=""><br>Informacion</button>
+
+    <button class="emergencia"> 911 </button>
+  </nav>
+
+
 
 
 
@@ -95,6 +114,7 @@
     integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
     crossorigin="anonymous"></script>
   <script src="js/bootstrap.js"></script>
+  <script src="menu.js"></script>
 </body>
 
 </html>
