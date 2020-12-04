@@ -1,10 +1,13 @@
 .tengo-ideas {
   background: #b1d035;
   border-radius: 10px;
+  width: 45%;
+  height: 45%;
+  font-family: cursive;
   font-size: 22px;  
   margin-top: -1em;
   margin-bottom: -1em;
-  margin-left: 1em;
+  margin-left: .8em;
   margin-right: -2em;
   padding-top: .5em;
   padding-bottom: -3em;
@@ -34,12 +37,15 @@
 .preocupa-alguien{
   background: #b1d035;
   border-radius: 10px;
+  width: 45%;
+  height: 45%;
+  font-family: cursive;
   font-size: 20px;
   margin-top: 2em;
-  margin-bottom: -1.5em;
+  margin-bottom: -3em;
   margin-left: 2em;
   margin-right: -1em;
-  padding-top: 3.5em;
+  padding-top: 3.4em;
   padding-bottom: 1.9em;
   padding-left: -2em;
   padding-right: -3em;
@@ -55,7 +61,6 @@
 .preocupa{
   width: 55px;
   height: 55px;
-  font-weight: bold;
   margin-top: -8em;
   margin-bottom: -2em;
   margin-right: -3.5em;
@@ -68,10 +73,13 @@
 
 .profesional-familia-interesado{
   background: #b1d035;
+  width: 45%;
+  height: 45%;
+  font-family: cursive;
   border-radius: 10px;
   margin-top: 1.5em;
   margin-bottom: -8em;
-  margin-left: 1.5em;
+  margin-left: 1.1em;
   margin-right: 1em;
   padding-top: .5em;
   padding-bottom: -3em;
@@ -86,9 +94,8 @@
 }
 
 .hospital {
-  width: 115px;
-  height: 115px;
-  font-weight: bold;
+  width: 100px;
+  height: 100px;
   padding-bottom: 1em;
   padding-top: -2em;
   padding-left: -2em;
@@ -98,15 +105,18 @@
 .informacion {
   background: #b1d035;
   border-radius: 10px;
-  font-size: 19px; 
-  margin-top: -7em;
-  margin-bottom: -5em;
-  margin-left: 8.2em;
-  margin-right: 1em;
-  padding-top: 1.9em;
-  padding-bottom: -9em;
-  padding-left: 1em;
-  padding-right: .5em;
+  width: 43%;
+  height: 43%;
+  font-family: cursive;
+  font-size: 20px; 
+  margin-top: -10rem;
+  margin-bottom: -5rem;
+  margin-left: 11.6rem;
+  margin-right: 4rem;
+  padding-top: 2.5rem;
+  padding-bottom: -8rem;
+  padding-left: -1rem;
+  padding-right: .5rem;
 }
 @media screen and (min-width: 640px) {
   .informacion {
@@ -117,14 +127,14 @@
 }
 
 .info{
-  width: 90px;
-  height: 90px;
-  margin-top: .09em;
+  width: 95px;
+  height: 70px;
+  margin-top: .1em;
   margin-bottom: .5em;
   margin-left: .1em;
-  margin-right: -.2em;
+  margin-right: -1em;
   padding-top: -2em;
-  padding-left: -2em;
+  padding-left: -3em;
   padding-right: -2em;
   padding-bottom: -2em;
 }
@@ -132,6 +142,8 @@
 .emergencia {
   background: #b1d035;
   border-radius: 10px;
+  width: 45%;
+  height: 45%;
   font-size: 25px;
   margin-top: 3.5em;
   margin-bottom: 1em;
