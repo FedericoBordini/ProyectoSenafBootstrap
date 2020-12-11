@@ -4,11 +4,11 @@
   width: 45%;
   height: 45%;
   font-family: cursive;
-  font-size: 22px;  
-  margin-top: -1em;
-  margin-bottom: -1em;
-  margin-left: .8em;
-  margin-right: -2em;
+  font-size: 20px;  
+  margin-top: -2em;
+  margin-bottom: -2em;
+  margin-left: 1em;
+  margin-right: -2.1em;
   padding-top: .5em;
   padding-bottom: -3em;
   padding-left: -2em;
@@ -18,7 +18,6 @@
   .tengo-ideas {
     display: flex;
     justify-content: space-evenly;
-    
   }
 }
 
@@ -33,6 +32,7 @@
   padding-bottom: -3em;
   padding-right: -5em;
   padding-left: -3em;
+  font-size: 20px;
 }
 .preocupa-alguien{
   background: #b1d035;
@@ -42,11 +42,11 @@
   font-family: cursive;
   font-size: 20px;
   margin-top: 2em;
-  margin-bottom: -3em;
+  margin-bottom: .5em;
   margin-left: 2em;
   margin-right: -1em;
-  padding-top: 3.4em;
-  padding-bottom: 1.9em;
+  padding-top: 3.1em;
+  padding-bottom: 1.8em;
   padding-left: -2em;
   padding-right: -3em;
 }
@@ -54,7 +54,6 @@
   .preocupa-alguien {
     display: flex;
     justify-content: space-evenly;
-    transform: translateX(0);
   }
 }
 
@@ -76,15 +75,16 @@
   width: 45%;
   height: 45%;
   font-family: cursive;
+  font-size: 20px;
   border-radius: 10px;
-  margin-top: 1.5em;
+  margin-top: .1em;
   margin-bottom: -8em;
-  margin-left: 1.1em;
+  margin-left: .9em;
   margin-right: 1em;
-  padding-top: .5em;
-  padding-bottom: -3em;
+  padding-top: 1.6em;
+  padding-bottom: .5em;
   padding-left: -4em;
-  padding-right: -3em;
+  padding-right: -4em;
 }
 @media screen and (min-width: 640px) {
   .profecional-familia-interesado {
@@ -94,49 +94,54 @@
 }
 
 .hospital {
-  width: 100px;
-  height: 100px;
-  padding-bottom: 1em;
-  padding-top: -2em;
-  padding-left: -2em;
+  width: 55px;
+  height: 55px;
+  margin-bottom: -1em;
+  margin-top: -.1em;
+  margin-right: 2em;
+  margin-left: -1em;
+  padding-bottom: 2em;
+  padding-top: -5rem;
+  padding-left: -4rem;
   padding-right: -2em;
+  font-size: .1px;
 }
 
 .informacion {
   background: #b1d035;
   border-radius: 10px;
-  width: 43%;
-  height: 43%;
+  width: 45%;
+  height: 45%;
   font-family: cursive;
   font-size: 20px; 
-  margin-top: -10rem;
-  margin-bottom: -5rem;
-  margin-left: 11.6rem;
-  margin-right: 4rem;
-  padding-top: 2.5rem;
-  padding-bottom: -8rem;
-  padding-left: -1rem;
-  padding-right: .5rem;
+  margin-top: -10em;
+  margin-bottom: -1em;
+  margin-left: -1em;
+  margin-right: -2em;
+  padding-top: 1.6em;
+  padding-bottom: 1.6em;
+  padding-left: -2em;
+  padding-right: .5em;
 }
 @media screen and (min-width: 640px) {
   .informacion {
     display: flex;
     justify-content: space-evenly;
-    transform: translateX(0);
   }
 }
 
 .info{
-  width: 95px;
-  height: 70px;
-  margin-top: .1em;
-  margin-bottom: .5em;
+  width: 55px;
+  height: 55px;
+  margin-top: -.5em;
+  margin-bottom: .4em;
   margin-left: .1em;
   margin-right: -1em;
-  padding-top: -2em;
+  padding-top: -3em;
   padding-left: -3em;
   padding-right: -2em;
-  padding-bottom: -2em;
+  padding-bottom: -3em;
+  font-size: 20px;
 }
 
 .emergencia {
