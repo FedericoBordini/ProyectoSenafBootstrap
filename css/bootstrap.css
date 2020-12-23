@@ -5995,6 +5995,7 @@ a.close.disabled {
   height: -moz-min-content;
   height: min-content;
   content: "";
+  
 }
 
 .modal-dialog-centered.modal-dialog-scrollable {
@@ -6003,15 +6004,20 @@ a.close.disabled {
   -ms-flex-pack: center;
   justify-content: center;
   height: 100%;
+ 
 }
 
 .modal-dialog-centered.modal-dialog-scrollable .modal-content {
   max-height: none;
+  
 }
 
 .modal-dialog-centered.modal-dialog-scrollable::before {
   content: none;
+  
 }
+
+/* modificacion general para las ventanas modales!! */
 
 .modal-content {
   position: relative;
@@ -6021,7 +6027,7 @@ a.close.disabled {
   flex-direction: column;
   width: 100%;
   pointer-events: auto;
-  background-color: #fff;
+  background-color: #546a8f;
   background-clip: padding-box;
   border: 1px solid rgba(0, 0, 0, 0.2);
   border-radius: 0.3rem;
