@@ -127,7 +127,7 @@
 .emergencia {
   background: #b1d035;
   border-radius: 10px;
-    font-size: 20px; 
+  font-size: 20px; 
   width: 45%;
   height: 45%;
   font-size: 25px;
@@ -141,3 +141,8 @@
   padding-right: 1em;
 }
 
+.modal-menu{
+  color: #b1d035;
+  border-bottom: 1px solid #b1d035;
+  border-top: 1px solid #b1d035;
+}
