@@ -1,3 +1,5 @@
+/* MENU TENGO IDEAS */
+
 .tengo-ideas {
   background: #b1d035;
   border-radius: 10px;
@@ -5,7 +7,7 @@
   height: 45%;
   font-size: 20px;  
   margin-top: -2em;
-  margin-bottom: -2em;
+  margin-bottom: .1em;
   margin-left: 1em;
   margin-right: -2.1em;
   padding-top: .5em;
@@ -28,6 +30,9 @@
   padding-left: -3em;
   font-size: 20px;
 }
+
+/* MENU ME PREOCUPA ALGUIEN */
+
 .preocupa-alguien{
   background: #b1d035;
   border-radius: 10px;
@@ -35,7 +40,7 @@
   height: 45%;
   font-size: 20px;
   margin-top: 2em;
-  margin-bottom: .5em;
+  margin-bottom: .1em;
   margin-left: 2em;
   margin-right: -1em;
   padding-top: 3em;
@@ -58,14 +63,16 @@
   font-size: 20px; 
 }
 
+/* MENU PROFECIONAL-FAMILIAR-INTERESADO*/
+
 .profesional-familia-interesado{
   background: #b1d035;
   width: 45%;
   height: 45%;
   font-size: 20px;
   border-radius: 10px;
-  margin-top: .1em;
-  margin-bottom: -8em;
+  margin-top: 1em;
+  margin-bottom: -1em;
   margin-left: .9em;
   margin-right: 1em;
   padding-top: 1.2em;
@@ -89,15 +96,17 @@
   font-size: .1px;
 }
 
+/* MENU INFORMACION */
+
 .informacion {
   background: #b1d035;
   border-radius: 10px;
   width: 45%;
   height: 45%;
   font-size: 20px; 
-  margin-top: -10em;
+  margin-top: 1em;
   margin-bottom: -1em;
-  margin-left: -1em;
+  margin-left: -1.1em;
   margin-right: -2em;
   padding-top: 1.3em;
   padding-bottom: 1.6em;
@@ -120,6 +129,8 @@
   font-size: 20px;
 }
 
+/* BOTON DE EMERGENCIA */
+
 .emergencia {
   background: #b1d035;
   border-radius: 10px;
@@ -127,7 +138,7 @@
   width: 45%;
   height: 45%;
   font-size: 25px;
-  margin-top: 3.5em;
+  margin-top: 2em;
   margin-bottom: 1em;
   margin-left: 4.2em;
   margin-right: -4em;
